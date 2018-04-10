@@ -1,0 +1,246 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+	height: 100%;
+}
+
+.wrapper{
+	min-height: 100%;
+	height: auto;
+	margin: 0 auto -60px;
+	position: relative;
+
+}
+
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+  position: absolute;
+}
+
+.material-icons{
+	font-size: 37px;
+}
+
+.img-responsive{
+	width: 12%;
+	height: auto;
+}
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
+}
+
+.grid-landing-absolute{
+	position: absolute;
+	z-index: 4;
+	top: 53%;
+	transform: translateY(-53%);
+	margin-left: 7%;
+}
+
+.primary-title{
+	color: #fff;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.secondary-title{
+	color: #FFF;
+	font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.8em;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 0.2%;
+}
+
+.positioned-btn{
+	margin: 3% 1%;
+
+}
+
+/* Project Preview Styles */
+
+.content-section{
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+}
+
+.section-title{
+	font-size: 3em;
+	font-weight: 700;
+	text-transform: uppercase;
+	width: 100%;
+	text-align: center;
+	margin-top: 10%;
+}
+
+.section-subtitle{
+	font-size: 2em;
+	font-weight: 400;
+	width: 100%;
+	text-align: center
+}
+
+.special-with-grid{
+	width: 80%;
+}
+
+.project-preview-box{
+	background-color: blue;
+	height: 500px;
+	margin: 0;
+}
+
+.project-preview-box:first-child,
+.project-preview-box:last-child{
+	height: 700px;
+}
+
+.project-preview-box:last-child{
+	margin-top: -200px;
+}
+
+/* Project Colors */
+#project-1{
+	background-color: #00b3af;
+}
+#project-2{
+	background-color: #6b7ea6;
+}
+#project-3{
+	background-color: #e66faa;
+}
+#project-4{
+	background-color: #fbae5f;
+}
+
+#accion-seemore-project{
+	display: block;
+	margin: 7% auto;
+}
+
+
+/* Footer styles */
+footer{
+	width: 100%;
+	height: auto;
+	clear: both;
+	position: relative;
+	background-color: #8AC440;
+	align-self: flex-end;
+}
+
+.footer-img-content{
+	z-index: 6;
+	overflow: hidden;
+}
+
+.footer-img-content .img-responsive{
+	width: 100%;
+}
+
+#clients-brand{
+	z-index: 8;
+	background-color: #F8F8F8;
+	padding-top: 1%;
+}
+
+.social-icon{
+	display: inline-block;
+	float: right;
+	width: 33.33%;
+	height: 100%;
+	padding: 0;
+}
+
+.social-row{
+	float: right;
+	display: inline-block;
+	margin-top: -16%;
+	padding-right: 10px;
+}
+
+li.social-circle{
+	display: inline-block;
+	font-size: 2.5em;
+	text-align: center;
+	padding: 0;
+	height: 100%;
+	overflow: hidden;
+}
+
+.social-circle span{
+	padding: 0;
+	margin: 0;
+	line-height: 2.3em;
+}
+
+.social-link{
+	color: #FFF;
+	transition: all 0.35s;
+	padding-left: 20px;
+}
+
+.social-link:hover{
+	color: #00b6b2;
+}
+
+.icon-mail:before {
+  content: "\ea83";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
