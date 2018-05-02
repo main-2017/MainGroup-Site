@@ -56,7 +56,7 @@ body{
 }
 
 .logo_main{
-    width: 160px;
+    width: 12%;
     display: block;
     margin: auto;
     background: transparent;
@@ -84,80 +84,6 @@ body{
     background-color: rgb(139, 197, 65);
 }
 
-.headings {
-	text-align: center;
-	font-weight: bold;
-	margin-top: 6%;
-}
-
-/* Estilos título "Agencia" */
-.agency-title{
-	margin-top: 8%;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 3.6em;
-}
-
-.agency-img{
-	width: 50%;
-	margin-left: 26%;
-	margin-top: 3%;
-}
-
-/* Estilos título "Staff" */
-.staff-title{
-	margin-top: 6%;
-	font-weight: bold;
-	font-size: 3.6em;
-}
-
-.staff-caricatures{
-	width: 16%;
-	margin-left: 13%;
-	margin-top: 3%;
-	margin-bottom: 4%;
-}
-
-.staff-sebastian {
-	margin-top: -3%;
-	margin-left: -57%;
-	font-size: 1.5em;
-}
-
-.staff-agustin {
-	margin-top: -6%;
-	font-size: 1.5em;
-}
-
-.staff-juan {
-	margin-top: -6%;
-	margin-left: 59.5%;
-	font-size: 1.5em;
-}
-
-.title-work{
-	margin-top: 6%;
-	text-align: center;
-	font-weight: bold;
-	text-transform: uppercase;
-}
-
-.globo{
-	text-align: center;
-	font-size: 1.2em;
-}
-
-.globo-img{
-	margin-left: 27%;
-	width: 46%;
-	margin-bottom: 4%;
-}
-
-.gallery-img{
-	margin-left: 26%;
-	width: 48%;
-}
-
 footer{
 	width: 100%;
 	height: auto;
@@ -179,11 +105,79 @@ footer{
 	margin-top: -11%;
 }
 
-.instaimg img {margin-bottom:30px;}
-.instaimg img:hover {
-  	opacity:0.8;
-  	-moz-opacity:0.8;
- 	-webkit-opacity:0.8;
+.carousel-inner{
+    margin-top: 10%;
+}
+
+.carousel-inner img{
+    width: 40%;
+}
+
+.heading-1{
+	font-weight: bold;
+	float: right;
+	margin-right: 27.5%;
+}
+
+.heading-2{
+	font-weight: bold;
+	float: right;
+	margin-right: 20%;
+}
+
+.heading-3{
+	font-weight: bold;
+	float: right;
+	margin-right: 20.5%;
+}
+
+.heading-4{
+	font-weight: bold;
+	float: right;
+	margin-right: 28.5%;
+}
+
+.heading-5{
+	font-weight: bold;
+	float: right;
+	margin-right: 24%;
+}
+
+.heading-6{
+	font-weight: bold;
+	float: right;
+	margin-right: 20%;
+}
+
+.heading-7{
+	font-weight: bold;
+	float: right;
+	margin-right: 17.5%;
+}
+
+.heading-8{
+	font-weight: bold;
+	float: right;
+	margin-right: 30%;
+}
+
+.heading-9{
+	font-weight: bold;
+	float: right;
+	margin-right: 24.5%;
+}
+
+.heading-10{
+	font-weight: bold;
+	float: right;
+	margin-right: 23.5%;
+}
+
+.paragraphs-info{
+	float: right;
+	text-align: -moz-left;
+	margin-left: 45%;
+	margin-top: -20%;
 }
 
 .social-icon{
