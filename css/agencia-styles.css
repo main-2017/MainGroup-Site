@@ -21,15 +21,16 @@ a, a:link, a:visited, a:hover{
 }
 
 body{
-	height: 100%;
+	background-image:
+    radial-gradient(
+    circle at center,
+    rgb(255,255,255),
+    rgb(200, 200, 200)
+    )
 }
 
-.wrapper{
-	min-height: 100%;
-	height: auto;
-	margin: 0 auto -60px;
-	position: relative;
-
+.colorMainGroup{
+	background-color: rgb(139, 197, 65);
 }
 
 .demo-layout-transparent .mdl-layout__header,
@@ -40,48 +41,14 @@ body{
   position: absolute;
 }
 
-.img-container{
-    width: 100%;
+.img-responsive {
+    width: 12%;
     height: auto;
-    overflow: hidden;
-    background: transparent;
-	position: absolute;
-	top: 30%;
-    z-index: 102;
-}
-
-.img-responsive{
-	width: 12%;
-	height: auto;
-}
-
-.logo_main{
-    width: 160px;
-    display: block;
-    margin: auto;
-    background: transparent;
-    position: absolute;
-    right: 40px;
-    z-index: 300;
-}
-
-.footer-logo {
-	width: 12%;
-    display: block;
-    margin: auto;
-    position: absolute;
-    top: 20%;
 }
 
 .material-icons{
 	font-size: 37px;
-}
-
-.content{
-    width: 100%;
-    height: 100px;
-    top: 0;
-    background-color: rgb(139, 197, 65);
+	color: #fff;
 }
 
 .headings {
@@ -95,7 +62,7 @@ body{
 	margin-top: 8%;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 3.6em;
+	font-size: 3.2em;
 }
 
 .agency-img{
@@ -108,7 +75,7 @@ body{
 .staff-title{
 	margin-top: 6%;
 	font-weight: bold;
-	font-size: 3.6em;
+	font-size: 3.2em;
 }
 
 .staff-caricatures{
@@ -122,17 +89,20 @@ body{
 	margin-top: -3%;
 	margin-left: -57%;
 	font-size: 1.5em;
+	text-align: center;
 }
 
 .staff-agustin {
 	margin-top: -6%;
 	font-size: 1.5em;
+	text-align: center;
 }
 
 .staff-juan {
 	margin-top: -6%;
 	margin-left: 59.5%;
 	font-size: 1.5em;
+	text-align: center;
 }
 
 .title-work{
@@ -165,6 +135,7 @@ footer{
 	position: relative;
 	background-color: #8AC440;
 	align-self: flex-end;
+	padding-bottom: 1%;
 }
 
 .footer-img-content{
@@ -172,11 +143,19 @@ footer{
 	margin-top: 20%;
 }
 
-.img-responsive{
-	width: 35%;
-	height: auto;
-	margin-left: 64%;
-	margin-top: -11%;
+.footer-logo {
+	width: 12%;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 20%;
+}
+
+.img-footer{
+	position: absolute;
+	left: 70%;
+	top: -98%;
+	width: 30%;
 }
 
 .instaimg img {margin-bottom:30px;}
@@ -192,4 +171,94 @@ footer{
 	font-size: 25px;
 	margin: 37.5px 7px 37.5px 0px;
 	color: #fff;
+}
+
+.social-row {
+    margin-top: -7%;
+    margin-left: 45%;
+}
+
+@media screen and (max-width: 1024px){
+	#logo-responsive /*Que el tamaño del logo se adapte a las resoluciones menores a 1024px*/{
+		width: 100px;
+	}
+}
+
+/*Estilos para telefonos o dispositivos de entre 320 y 500px de ancho */
+@media only screen 
+  and (min-width: 320px) and (max-width: 500px){
+  
+	.agency-title {
+    	margin-top: 24%;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 3.0em;
+	}
+
+	.staff-title {
+    	margin-top: 28%;
+    	font-weight: bold;
+    	font-size: 3em;
+    	margin-bottom: -25%;
+	}
+
+	.agency-img {
+    	width: 100%;
+    	margin-left: 0;
+    	margin-top: 3%;
+	}
+
+	.staff-caricatures {
+    	width: 35%;
+    	display: block;
+    	margin: 32%;
+	}
+
+	.staff-sebastian {
+    	margin-top: -164%;
+    	margin-left: 0;
+		font-size: 1.0em;
+	}
+
+	.staff-agustin {
+    	margin-top: 50%;
+    	font-size: 1.0em;
+	}
+
+	.staff-juan {
+    	margin-top: 50%;
+    	margin-left: 0;
+    	font-size: 1.0em;
+	}
+
+	.globo {
+    	font-size: 1.0em;
+	}
+
+	.globo-img {
+    	width: 100%;
+    	margin-bottom: 18%;
+    	margin-left: 0;
+	}
+
+	.footer-logo {
+		width: 50%;
+    	display: block;
+    	top: 20%;
+    	margin-left: 25%;
+    	margin-top: 10%;
+	}
+
+	.img-footer {
+    	width: 70%;
+    	left: 28%;
+    	top: -33%;
+    	position: absolute;
+	}
+
+	.social-row {
+    	margin-left: 39%;
+    	margin-top: 34%;
+    	display: inline-flex;
+	}
 }
